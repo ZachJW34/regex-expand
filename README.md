@@ -33,7 +33,7 @@ The patterns supported by [String.prototype.replace](https://developer.mozilla.o
 | --------- | ------------------------------------------------------------------------------------------ |
 | `$$`      | Inserts a "$".                                                                             |
 | `$&`      | Inserts the matched substring.                                                             |
-| ``$```    | Inserts the portion of the string that precedes the matched substring.                     |
+| `` $`  `` | Inserts the portion of the string that precedes the matched substring.                     |
 | `$'`      | Inserts the portion of the string that follows the matched substring.                      |
 | `$n`      | Inserts the nth (1-indexed) capturing group where `n` is a positive integer less than 100. |
 | `$<Name>` | Inserts the named capturing group where `Name` is the group name.                          |
